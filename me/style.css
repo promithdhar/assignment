@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'be vietnam';
+}
+:root{
+    /* Primary */
+    --primary-one: hsl(12, 88%, 59%);
+    --primary-two: hsl(228, 39%, 23%);
+
+    /* Neutral */
+    --neutral-g-blue: hsl(227, 12%, 61%);
+    --neutral-d-blue: hsl(233, 12%, 13%);
+    --neutral-red: hsl(13, 100%, 96%);
+    --neutral-grey: hsl(0, 0%, 98%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'be vietnam';
+}
+
+/* PAGE */
+header{
+    position: relative;
+    overflow-x: hidden;
+}
+
+.bg-head{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(20%, -30%);
+    z-index: -1;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--primary-two);
+    transition: all .3s;
+}
+
+nav ul li a:hover{
+    opacity: .6;
+}
+
+.cta:hover{
+    opacity: .6;
+}
+
+nav button, .header-main-content button, .testimonials .btn{
+    padding: 12px 25px;
+    background-color: var(--primary-one);
+    border: none;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border-radius: 100px;
+    box-shadow: 0 5px 20px 0 hsla(12, 88%, 59%, 0.582);
+    transition: all .3s;
+}
+
+.header-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-main-content-h1{
+    font-size: 53px;
+    color: var(--primary-two);
+}
+
+.header-main-content-p{
+    font-size: 16px;
+    color: var(--neutral-g-blue);
+    margin-top: 30px;
+}
+
+.header-main-content button{
+    margin-top: 30px;
+}
+
+.header-main-img img{
+    filter: drop-shadow(0 0 20px rgba(0,0,0,0.02))
+}
+
+/* Main Body Content */
+
+.bg-main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-60%, 60%);
+    z-index: -1;
+}
+
+section{
+    position: relative;
+}
+
+main{
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-content-left{
+    margin: 25px;
+    width: 450px;
+}
+
+.main-content-left-h1{
+    font-size: 45px;
+    color: var(--primary-two);
+}
+
+.main-content-left-p{
+    font-size: 16px;
+    color: var(--neutral-g-blue);
+    margin-top: 30px;
+}
+
+/* Main Right */
+.main-content-right{
+    margin: 25px;
+}
+
+.main-content-right-track{
+    margin-bottom: 50px;
+}
+
+.main-content-right-track-h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+    color: var(--primary-two);
+    font-size: 17px;
+    padding-right: 50px;
+    width: 400px;
+}
+
+.main-content-right-track-p{
+    font-size: 15px;
+    color: var(--neutral-g-blue);
+    margin-top: 10px;
+    width: 410px;
+    margin-left: 100px;
+}
+
+.main-content-right-track-h3.advance{
+    padding-right: 90px;
+}
+
+.main-content-right-track-h3.everything{
+    padding-right: 30px;
+}
+
+.main-content-right-track-h3 span{
+    padding: 7px 24px;
+    color: white;
+    font-size: 17px;
+    background: var(--primary-one);
+    border-radius: 100px;
+}
+
+/* Testimonial Section */
+.testimonials{
+    text-align: center;
+}
+
+.testimonials-h1{
+    font-size: 45px;
+    text-align: center;
+    color: var(--primary-two);
+}
+
+.testimonials-card{
+    width: 380px;
+    text-align: center;
+    height: auto;
+    display: grid;
+    margin: 10px;
+    place-items: center;
+    background: var(--neutral-grey);
+}
+
+.testimonials-card img{
+    margin-top: -70px;
+    position: relative;
+    z-index: 400;
+}
+
+.testimonials-card h3{
+    margin-top: 20px;
+    color: var(--primary-two);
+}
+
+.testimonials-card p{
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: var(--neutral-g-blue);
+}
+
+.glider{
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.testimonials .btn{
+    margin: 20px 0;
+}
+
+/* Aside */
+aside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    margin-top: 100px;
+    background-color: var(--primary-one);
+    padding: 60px 0;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.aside-big{
+    position: absolute;
+    pointer-events: none;
+}
+
+aside h1{
+    font-size: 40px;
+}
+
+aside .btn{
+    padding: 12px 25px;
+    background-color: #fff;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--primary-one);
+    outline: none;
+    border-radius: 100px;
+    transition: all .3s;
+    box-shadow: 0 5px 20px 0 hsla(12, 88%, 59%, 0.582);
+}
+
+/* Footer */
+footer{
+    background-color: var(--neutral-d-blue);
+    display: flex;
+    padding: 50px 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo-socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-socials-soc{
+    margin-top: 50px;
+}
+
+.logo-socials-soc svg{
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.logo-socials-soc svg path{
+    transition: all .3s;
+}
+
+.logo-socials-soc svg:hover path{
+    fill: var(--primary-one);
+}
+
+.footer-nav{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.footer-nav ul{
+    list-style: none;
+}
+
+.footer-nav ul li{
+    margin-bottom: 10px;
+}
+
+.footer-nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    transition: all .3s;
+}
+
+.footer-nav ul li a:hover{
+    color: var(--primary-one);
+}
+
+footer form input{
+    padding: 15px 25px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+}
+
+footer form button{
+    padding: 15px 25px;
+    border-radius: 100px;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s;
+    border: none;
+    background: var(--primary-one);
+    color: white;
+}
+
+.copy{
+    background-color: var(--neutral-d-blue);
+    color: var(--neutral-g-blue);
+    font-size: 14px;
+    margin-top: 40px;
+    text-align: right;
+}
+
+
+
+
+
+
+
