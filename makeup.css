@@ -110,4 +110,9 @@ section{
     border-image: liner-gradient(180deg, Crimson, DeepPink);
     border-image-slice: 1;
 }
-
+footer{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
