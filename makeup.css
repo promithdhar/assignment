@@ -68,23 +68,46 @@ section{
     font-size: 27px;
 }
 .heading-color{
-    color: rgb(243, 47, 145);
+    color: rgb(235, 21, 128);
 }
 .number-1{
     font-size: 25px;
-    font-weight: 700;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(243, 47, 145);
-}
-.number-2{
-    font-size: 25px;
     font-weight: 700px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(243, 47, 145);
+    color: rgb(219, 49, 134);
 }
+
 .dream-area{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 77px;
 }
+.first{
+    width: 12%;
+    margin: 5%;
+    padding: 5%;
+    float: left;
+}
+.experiences-area{
+    padding-top: 20%;
+}
+.box{
+    box-shadow: 10px 10px 40px rgb(197, 95, 146);
+}
+#first-id{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, Crimson, DeepPink);
+    border-image-slice: 1;
+}
+#second-id{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, Orange, OrangeRed);
+    border-image-slice: 1;
+}
+#third-id{
+    border-left: 7px solid;
+    border-image: liner-gradient(180deg, Crimson, DeepPink);
+    border-image-slice: 1;
+}
+
