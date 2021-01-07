@@ -119,10 +119,10 @@ footer p{
 .last-div{
     width: 600px;
     padding: 60px;
-    border:1px solid rgb(223, 66, 97);
+    border:1px solid rgb(180, 160, 164);
     margin: 270px 150px 150px 600px;
     border-radius: 50px;
-    background-color: rgb(235, 33, 73);
+    background-color: deeppink;
     color: white;
     font-weight: bold;
     font-size: 22px;
@@ -133,9 +133,9 @@ footer p{
 .last-btn{
     margin: 0px 0px 0px 5px;
     text-decoration: none;
-    background-image: linear-gradient(45deg,rgb(233, 141, 159),rgb(204, 15, 72));
-    border-radius: 25px;
-    padding: 10px 22px;
+    background-image: linear-gradient(145deg,Orange,DeepPink);
+    border-radius: 10px;
+    padding: 15px 20px;
     color: white;
     font-size: 17px;
     font-weight: bold;
