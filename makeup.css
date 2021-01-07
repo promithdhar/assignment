@@ -26,17 +26,13 @@ p{
     color: rgb(216, 34, 110);
 }
 .half-width{
-    width: 40%;
+    width: 39%;
     float: left;
     margin-left: 5%;
     padding: 2%;
 }
 .half-width img{
     width: 100%;
-}
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
 }
 section{
     height: 500px;
@@ -94,7 +90,7 @@ section{
 }
 .box{
     box-shadow: 10px 10px 40px rgb(197, 95, 146);
-    height: 60%;
+    height: 80%;
 }
 #first-id{
     border-left: 7px solid;
@@ -116,4 +112,32 @@ footer{
 }
 footer p{
     text-align: center;
+}
+.box-image{
+    width: 100%;
+}
+.last-div{
+    width: 600px;
+    padding: 60px;
+    border:1px solid rgb(223, 66, 97);
+    margin: 270px 150px 150px 600px;
+    border-radius: 50px;
+    background-color: rgb(235, 33, 73);
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+.last-heading{
+    text-align: left;
+}
+.last-btn{
+    margin: 0px 0px 0px 5px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(233, 141, 159),rgb(204, 15, 72));
+    border-radius: 25px;
+    padding: 10px 22px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+
 }
