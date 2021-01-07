@@ -94,6 +94,7 @@ section{
 }
 .box{
     box-shadow: 10px 10px 40px rgb(197, 95, 146);
+    height: 60%;
 }
 #first-id{
     border-left: 7px solid;
@@ -107,7 +108,7 @@ section{
 }
 #third-id{
     border-left: 7px solid;
-    border-image: liner-gradient(180deg, Crimson, DeepPink);
+    border-image: linear-gradient(180deg,OrangeRed,DeepPink);
     border-image-slice: 1;
 }
 footer{
